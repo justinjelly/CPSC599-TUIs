@@ -1,11 +1,15 @@
+// Assignment 0: Hello World. Visit https://justinyu.carrd.co/ for info.
+// CPSC 599 Justin Yu 30093886
+
+// initializing led and button pins
 int REDPIN = 11;
 int GREENPIN = 10;
 int BLUEPIN = 9;
 int BUTTONPIN = 2;
 
-int buttonState = 0;
-int prevButtonState = 0;
-int buttonCounter = 0;
+int buttonState = 0; //tracks button state
+int prevButtonState = 0; // tracks last state 
+int buttonCounter = 0; // tracks button presses
 
 void setup() {
   // RGB pins as output
