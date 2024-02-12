@@ -1,4 +1,4 @@
-//Control of ultrasonic sensor (HNS04) and tilt ball switch. sending to port 9600
+//Control of ultrasonic sensor (HC SR04) and tilt ball switch. sending to port 9600
 //based on PING arduino example
 
 // array to store values to send to pure data
